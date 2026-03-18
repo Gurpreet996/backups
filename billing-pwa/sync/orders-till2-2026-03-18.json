@@ -1,6 +1,6 @@
 {
   "_kind": "browser-payload",
-  "_savedAt": "2026-03-18T11:42:48.751Z",
+  "_savedAt": "2026-03-18T11:45:03.565Z",
   "git": {
     "owner": "Gurpreet996",
     "repo": "backups",
@@ -97,6 +97,49 @@
           "processedBy": "Admin"
         }
       ]
+    },
+    {
+      "id": "25a24555-b9e6-4513-aa13-7102aac8eef5",
+      "createdAt": 1773834274687,
+      "items": [
+        {
+          "id": "fe37ae7f-da06-426f-8565-fdb30c9c329e",
+          "productId": "prod-apples",
+          "quantity": 2.55,
+          "modifiers": [],
+          "unitPrice": 299,
+          "subtotal": 762.4499999999999,
+          "taxRate": 6,
+          "taxAmount": 46
+        }
+      ],
+      "orderType": "takeaway",
+      "customerId": null,
+      "subTotalAmount": 762.4499999999999,
+      "discountAmount": 0,
+      "taxAmount": 46,
+      "total": 808.4499999999999,
+      "splits": [
+        {
+          "id": "0f503c7e-b17e-4af0-a186-9a86712ea82d",
+          "amountDue": 808.4499999999999,
+          "payments": [
+            {
+              "id": "0aa0def9-d78a-4508-a1ab-b79db3a95240",
+              "type": "cash",
+              "amount": 808.4499999999999,
+              "received": 1000,
+              "change": 191.55000000000007,
+              "createdAt": 1773834274685,
+              "billerName": "John Smith"
+            }
+          ],
+          "status": "paid"
+        }
+      ],
+      "comment": "",
+      "status": "completed",
+      "invoiceId": "INV-Till2-20260318-0002"
     },
     {
       "id": "7f628a31-dddd-4d31-8532-00f6b8817cdd",
@@ -509,5 +552,5 @@
     }
   ],
   "name": "orders-till2-2026-03-18",
-  "createdAt": "2026-03-18T11:42:48.759Z"
+  "createdAt": "2026-03-18T11:45:03.559Z"
 }

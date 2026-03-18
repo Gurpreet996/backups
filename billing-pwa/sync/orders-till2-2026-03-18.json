@@ -1,0 +1,513 @@
+{
+  "_kind": "browser-payload",
+  "_savedAt": "2026-03-18T11:42:48.751Z",
+  "git": {
+    "owner": "Gurpreet996",
+    "repo": "backups",
+    "branch": "main"
+  },
+  "syncKind": "orders",
+  "terminalName": "till2",
+  "orders": [
+    {
+      "id": "023f49c7-024d-4b8e-b357-65a6042b30a5",
+      "createdAt": 1773397893157,
+      "items": [
+        {
+          "id": "52ff2168-5591-4d0a-8631-7d3d3a23aa2b",
+          "productId": "serv-manicure",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 3500,
+          "subtotal": 3500,
+          "taxRate": 8.5,
+          "taxAmount": 298
+        },
+        {
+          "id": "5f0b9261-6043-4153-b7a4-c832158b8497",
+          "productId": "prod-coke",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 199,
+          "subtotal": 199,
+          "taxRate": 8.5,
+          "taxAmount": 17
+        },
+        {
+          "id": "107910cc-7c64-4bed-a7df-2a248016b7ea",
+          "productId": "prod-fries",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 349,
+          "subtotal": 349,
+          "taxRate": 6,
+          "taxAmount": 21
+        }
+      ],
+      "orderType": "takeaway",
+      "customerId": null,
+      "subTotalAmount": 4048,
+      "discountAmount": 0,
+      "taxAmount": 335,
+      "total": 4383,
+      "splits": [
+        {
+          "id": "fd57ad05-279f-43cb-a50d-4c7c2129077b",
+          "amountDue": 4383,
+          "payments": [
+            {
+              "id": "b6f0769a-8868-4ba9-845a-edd4c616d1b8",
+              "type": "cash",
+              "amount": 4383,
+              "received": 4383,
+              "change": 0,
+              "createdAt": 1773397893156,
+              "billerName": "Admin"
+            }
+          ],
+          "status": "paid"
+        }
+      ],
+      "comment": "",
+      "status": "partially-refunded",
+      "invoiceId": "INV-20260313-0003",
+      "refunds": [
+        {
+          "id": "fcbc910c-683a-419d-8d23-709adce6fc8a",
+          "createdAt": 1773397938408,
+          "items": [
+            {
+              "orderItemId": "5f0b9261-6043-4153-b7a4-c832158b8497",
+              "productId": "prod-coke",
+              "productName": "Coca-Cola",
+              "quantity": 1,
+              "amount": 199,
+              "taxAmount": 17
+            },
+            {
+              "orderItemId": "107910cc-7c64-4bed-a7df-2a248016b7ea",
+              "productId": "prod-fries",
+              "productName": "French Fries",
+              "quantity": 1,
+              "amount": 349,
+              "taxAmount": 21
+            }
+          ],
+          "totalAmount": 586,
+          "processedBy": "Admin"
+        }
+      ]
+    },
+    {
+      "id": "7f628a31-dddd-4d31-8532-00f6b8817cdd",
+      "createdAt": 1773832736477,
+      "items": [
+        {
+          "id": "825d2be3-3486-49a8-a290-6d9bd8e990a0",
+          "productId": "prod-apples",
+          "quantity": 0.15,
+          "modifiers": [],
+          "unitPrice": 299,
+          "subtotal": 44.85,
+          "taxRate": 6,
+          "taxAmount": 3
+        },
+        {
+          "id": "c0431284-6298-4f73-bddc-e356cc193248",
+          "productId": "prod-water",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 149,
+          "subtotal": 149,
+          "taxRate": 0,
+          "taxAmount": 0
+        },
+        {
+          "id": "381dd925-6832-44c1-8f94-54f955d3950c",
+          "productId": "serv-manicure",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 3500,
+          "subtotal": 3500,
+          "taxRate": 8.5,
+          "taxAmount": 298
+        }
+      ],
+      "orderType": "takeaway",
+      "customerId": null,
+      "subTotalAmount": 3693.85,
+      "discountAmount": 0,
+      "taxAmount": 300,
+      "total": 3993.85,
+      "splits": [
+        {
+          "id": "643eea1e-4557-4152-84de-bf15be4f363f",
+          "amountDue": 3993.85,
+          "payments": [
+            {
+              "id": "fb192e39-05bd-4134-90d6-04b5e616e91f",
+              "type": "cash",
+              "amount": 3993.85,
+              "received": 3994,
+              "change": 0.15000000000009095,
+              "createdAt": 1773832736474,
+              "billerName": "Admin"
+            }
+          ],
+          "status": "paid"
+        }
+      ],
+      "comment": "",
+      "tableId": "4f79204e-ba9b-496d-950e-ecec03b6d0bc",
+      "status": "completed",
+      "invoiceId": "INV-20260318-0002"
+    },
+    {
+      "id": "95eb024c-190f-456f-9bc5-5540cdc3cf07",
+      "createdAt": 1773834150281,
+      "items": [
+        {
+          "id": "f94fb5d2-db6c-42a6-a69a-c86328bc6c9c",
+          "productId": "prod-apples",
+          "quantity": 0.15,
+          "modifiers": [],
+          "unitPrice": 299,
+          "subtotal": 44.85,
+          "taxRate": 6,
+          "taxAmount": 3
+        },
+        {
+          "id": "9e83c165-38a0-4c42-abf3-bda9371c0ee2",
+          "productId": "prod-water",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 149,
+          "subtotal": 149,
+          "taxRate": 0,
+          "taxAmount": 0
+        },
+        {
+          "id": "370ef221-6df3-44ae-b646-cf8bc4bd706f",
+          "productId": "serv-manicure",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 3500,
+          "subtotal": 3500,
+          "taxRate": 8.5,
+          "taxAmount": 298
+        },
+        {
+          "id": "40ddf25a-b279-477c-a11f-aac0da4380ba",
+          "productId": "prod-coke",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 199,
+          "subtotal": 199,
+          "taxRate": 8.5,
+          "taxAmount": 17
+        },
+        {
+          "id": "00e3a62a-e403-423a-bcdd-95e20a70e243",
+          "productId": "prod-fries",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 349,
+          "subtotal": 349,
+          "taxRate": 6,
+          "taxAmount": 21
+        }
+      ],
+      "orderType": "takeaway",
+      "customerId": null,
+      "subTotalAmount": 4241.85,
+      "discountAmount": 0,
+      "taxAmount": 338,
+      "total": 4579.85,
+      "splits": [
+        {
+          "id": "a64588bf-1ac7-4265-a6da-2555c33bc767",
+          "amountDue": 4579.85,
+          "payments": [
+            {
+              "id": "b7d4b32a-3c85-41d8-a9e5-2092e837ff5b",
+              "type": "cash",
+              "amount": 4579.85,
+              "received": 4580,
+              "change": 0.1499999999996362,
+              "createdAt": 1773834150280,
+              "billerName": "John Smith"
+            }
+          ],
+          "status": "paid"
+        }
+      ],
+      "comment": "",
+      "status": "completed",
+      "invoiceId": "INV-Till2-20260318-0001"
+    },
+    {
+      "id": "d79b9bad-656a-4ec6-bee3-fa56e647950a",
+      "createdAt": 1773397913565,
+      "items": [
+        {
+          "id": "700f9248-290b-40b2-b4c9-79253d03b800",
+          "productId": "prod-water",
+          "quantity": 5,
+          "modifiers": [],
+          "unitPrice": 149,
+          "subtotal": 745,
+          "taxRate": 0,
+          "taxAmount": 0
+        },
+        {
+          "id": "19d557e0-5afe-4d86-a62e-829e71f429af",
+          "productId": "prod-coke",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 199,
+          "subtotal": 199,
+          "taxRate": 8.5,
+          "taxAmount": 17
+        },
+        {
+          "id": "e2fc6d50-79b8-4282-ba84-ce1912fd62c2",
+          "productId": "prod-fries",
+          "quantity": 3,
+          "modifiers": [],
+          "unitPrice": 349,
+          "subtotal": 1047,
+          "taxRate": 6,
+          "taxAmount": 42,
+          "dealApplied": "Buy One Get One Free on Fries!"
+        },
+        {
+          "id": "49d46045-8213-4bb1-8b5a-01952c3ffb51",
+          "productId": "serv-manicure",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 3500,
+          "subtotal": 3500,
+          "taxRate": 8.5,
+          "taxAmount": 298
+        },
+        {
+          "id": "f78ab1e5-d6a7-4e9a-afd6-ef3501fc277a",
+          "productId": "serv-haircut",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 2500,
+          "subtotal": 2500,
+          "taxRate": 8.5,
+          "taxAmount": 213
+        }
+      ],
+      "orderType": "takeaway",
+      "customerId": null,
+      "subTotalAmount": 7991,
+      "discountAmount": 349,
+      "taxAmount": 569,
+      "total": 8211,
+      "splits": [
+        {
+          "id": "223e236d-06bf-4c18-b2d4-9d7c32ceb673",
+          "amountDue": 8211,
+          "payments": [
+            {
+              "id": "1fa8fb76-8dec-4b7f-b023-c85240e4001d",
+              "type": "cash",
+              "amount": 8211,
+              "received": 8211,
+              "change": 0,
+              "createdAt": 1773397913564,
+              "billerName": "Admin"
+            }
+          ],
+          "status": "paid"
+        }
+      ],
+      "comment": "",
+      "status": "completed",
+      "invoiceId": "INV-20260313-0005"
+    },
+    {
+      "id": "d80d4c88-1459-4ee9-a881-ee55615a3c0f",
+      "createdAt": 1773397903340,
+      "items": [
+        {
+          "id": "1a1aa92a-b87e-46e8-ada5-17bd0668ca6e",
+          "productId": "prod-apples",
+          "quantity": 0.15,
+          "modifiers": [],
+          "unitPrice": 299,
+          "subtotal": 44.85,
+          "taxRate": 6,
+          "taxAmount": 3
+        },
+        {
+          "id": "e4cdd4c7-8e8e-47b4-a5a0-32cb94d24070",
+          "productId": "prod-coke",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 199,
+          "subtotal": 199,
+          "taxRate": 8.5,
+          "taxAmount": 17
+        },
+        {
+          "id": "ec8dddea-9cd9-40b7-bf2e-3f2f8b509a88",
+          "productId": "prod-fries",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 349,
+          "subtotal": 349,
+          "taxRate": 6,
+          "taxAmount": 21
+        },
+        {
+          "id": "20c77092-fa7b-4bc1-990e-58858cccdeab",
+          "productId": "serv-haircut",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 2500,
+          "subtotal": 2500,
+          "taxRate": 8.5,
+          "taxAmount": 213
+        }
+      ],
+      "orderType": "takeaway",
+      "customerId": null,
+      "subTotalAmount": 3092.85,
+      "discountAmount": 0,
+      "taxAmount": 253,
+      "total": 3345.85,
+      "splits": [
+        {
+          "id": "40892f23-7eef-4e2f-b9b5-537582cc4c10",
+          "amountDue": 3345.85,
+          "payments": [
+            {
+              "id": "9c484ea8-ba71-4ca9-9af2-3f12d2dcf91c",
+              "type": "cash",
+              "amount": 3345.85,
+              "received": 3346,
+              "change": 0.15000000000009095,
+              "createdAt": 1773397903339,
+              "billerName": "Admin"
+            }
+          ],
+          "status": "paid"
+        }
+      ],
+      "comment": "",
+      "status": "refunded",
+      "invoiceId": "INV-20260313-0004",
+      "refunds": [
+        {
+          "id": "e861bb2e-81d4-499d-886a-91de5d0cd9f2",
+          "createdAt": 1773397961752,
+          "items": [
+            {
+              "orderItemId": "1a1aa92a-b87e-46e8-ada5-17bd0668ca6e",
+              "productId": "prod-apples",
+              "productName": "Apples",
+              "quantity": 0.15,
+              "amount": 45,
+              "taxAmount": 3
+            },
+            {
+              "orderItemId": "e4cdd4c7-8e8e-47b4-a5a0-32cb94d24070",
+              "productId": "prod-coke",
+              "productName": "Coca-Cola",
+              "quantity": 1,
+              "amount": 199,
+              "taxAmount": 17
+            },
+            {
+              "orderItemId": "ec8dddea-9cd9-40b7-bf2e-3f2f8b509a88",
+              "productId": "prod-fries",
+              "productName": "French Fries",
+              "quantity": 1,
+              "amount": 349,
+              "taxAmount": 21
+            },
+            {
+              "orderItemId": "20c77092-fa7b-4bc1-990e-58858cccdeab",
+              "productId": "serv-haircut",
+              "productName": "Men's Haircut",
+              "quantity": 1,
+              "amount": 2500,
+              "taxAmount": 213
+            }
+          ],
+          "totalAmount": 3347,
+          "processedBy": "Admin"
+        }
+      ]
+    },
+    {
+      "id": "f376081c-20af-47fe-a75d-e0f1c52c7948",
+      "createdAt": 1773834064608,
+      "items": [
+        {
+          "id": "72865346-70a2-4dd3-8201-fb88a5ecbd5a",
+          "productId": "prod-water",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 149,
+          "subtotal": 149,
+          "taxRate": 0,
+          "taxAmount": 0
+        },
+        {
+          "id": "91b81579-f652-4525-8d17-4a4587ea6ac7",
+          "productId": "serv-manicure",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 3500,
+          "subtotal": 3500,
+          "taxRate": 8.5,
+          "taxAmount": 298
+        },
+        {
+          "id": "639b7599-dbdc-4460-acd0-1e601d636b42",
+          "productId": "prod-coke",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 199,
+          "subtotal": 199,
+          "taxRate": 8.5,
+          "taxAmount": 17
+        }
+      ],
+      "orderType": "takeaway",
+      "customerId": null,
+      "subTotalAmount": 3848,
+      "discountAmount": 0,
+      "taxAmount": 314,
+      "total": 4162,
+      "splits": [
+        {
+          "id": "47408ad0-1360-461d-a6ff-bcc9f310c0c6",
+          "amountDue": 4162,
+          "payments": [
+            {
+              "id": "3b06cb12-a855-449c-9c39-ee88cbb391e8",
+              "type": "cash",
+              "amount": 4162,
+              "received": 4162,
+              "change": 0,
+              "createdAt": 1773834064606,
+              "billerName": "Admin"
+            }
+          ],
+          "status": "paid"
+        }
+      ],
+      "comment": "",
+      "status": "completed",
+      "invoiceId": "INV-20260318-0003"
+    }
+  ],
+  "name": "orders-till2-2026-03-18",
+  "createdAt": "2026-03-18T11:42:48.759Z"
+}

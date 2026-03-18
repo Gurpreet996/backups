@@ -1,6 +1,6 @@
 {
   "_kind": "browser-payload",
-  "_savedAt": "2026-03-18T06:03:59.364Z",
+  "_savedAt": "2026-03-18T06:05:38.998Z",
   "git": {
     "owner": "Gurpreet996",
     "repo": "backups",
@@ -299,6 +299,69 @@
       "invoiceId": "INV-20260318-0001"
     },
     {
+      "id": "b9b85058-27c8-4f78-ad45-250fac528530",
+      "createdAt": 1773813921781,
+      "items": [
+        {
+          "id": "9a51f225-4877-45dc-b520-a799e7ccef3d",
+          "productId": "prod-apples",
+          "quantity": 0.15,
+          "modifiers": [],
+          "unitPrice": 299,
+          "subtotal": 44.85,
+          "taxRate": 6,
+          "taxAmount": 3
+        },
+        {
+          "id": "e5e983fa-950e-47bf-9d8f-a552d0ce2e2a",
+          "productId": "prod-water",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 149,
+          "subtotal": 149,
+          "taxRate": 0,
+          "taxAmount": 0
+        },
+        {
+          "id": "d507bb6b-fc4b-49d3-a94b-1a526c4eef3b",
+          "productId": "prod-coke",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 199,
+          "subtotal": 199,
+          "taxRate": 8.5,
+          "taxAmount": 17
+        }
+      ],
+      "orderType": "takeaway",
+      "customerId": null,
+      "subTotalAmount": 392.85,
+      "discountAmount": 0,
+      "taxAmount": 20,
+      "total": 412.85,
+      "splits": [
+        {
+          "id": "471d9b31-90ca-49b1-bebf-1cc9ba0c6e50",
+          "amountDue": 412.85,
+          "payments": [
+            {
+              "id": "995dcaa5-c5b7-445a-8509-4c01573cdb78",
+              "type": "cash",
+              "amount": 412.85,
+              "received": 413,
+              "change": 0.14999999999997726,
+              "createdAt": 1773813921780,
+              "billerName": "Admin"
+            }
+          ],
+          "status": "paid"
+        }
+      ],
+      "comment": "",
+      "status": "completed",
+      "invoiceId": "INV-till 2-20260318-0001"
+    },
+    {
       "id": "cff1e5ba-759a-47a1-9f24-2c20f9802929",
       "createdAt": 1773808472627,
       "items": [
@@ -572,5 +635,5 @@
     }
   ],
   "name": "orders-till 2-2026-03-18",
-  "createdAt": "2026-03-18T06:03:59.352Z"
+  "createdAt": "2026-03-18T06:05:38.994Z"
 }

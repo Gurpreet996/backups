@@ -1,6 +1,6 @@
 {
   "_kind": "browser-payload",
-  "_savedAt": "2026-03-18T06:05:38.998Z",
+  "_savedAt": "2026-03-18T06:48:21.423Z",
   "git": {
     "owner": "Gurpreet996",
     "repo": "backups",
@@ -9,6 +9,99 @@
   "syncKind": "orders",
   "terminalName": "till 2",
   "orders": [
+    {
+      "id": "007069a9-20f6-4b78-b5e8-a7db652f7459",
+      "createdAt": 1773816433572,
+      "items": [
+        {
+          "id": "991bd2c8-e071-4db9-9c97-f1479f3fd94f",
+          "productId": "prod-apples",
+          "quantity": 0.15,
+          "modifiers": [],
+          "unitPrice": 299,
+          "subtotal": 44.85,
+          "taxRate": 6,
+          "taxAmount": 3
+        },
+        {
+          "id": "06225737-83d2-4688-aa9e-311122b8c03b",
+          "productId": "prod-water",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 149,
+          "subtotal": 149,
+          "taxRate": 0,
+          "taxAmount": 0
+        },
+        {
+          "id": "cd7bdcf2-6eae-48ae-adbe-b463296f9051",
+          "productId": "serv-manicure",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 3500,
+          "subtotal": 3500,
+          "taxRate": 8.5,
+          "taxAmount": 298
+        },
+        {
+          "id": "9d622a9e-587c-41d5-99d3-89973179055f",
+          "productId": "serv-haircut",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 2500,
+          "subtotal": 2500,
+          "taxRate": 8.5,
+          "taxAmount": 213
+        },
+        {
+          "id": "bcc0db40-fdfd-4fbc-8422-aadb27ee3592",
+          "productId": "prod-fries",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 349,
+          "subtotal": 349,
+          "taxRate": 6,
+          "taxAmount": 21
+        },
+        {
+          "id": "c64e53cf-adf0-436c-8ae9-f7946d03a973",
+          "productId": "prod-bacon-burger",
+          "quantity": 1,
+          "modifiers": [],
+          "unitPrice": 999,
+          "subtotal": 999,
+          "taxRate": 6,
+          "taxAmount": 60
+        }
+      ],
+      "orderType": "takeaway",
+      "customerId": null,
+      "subTotalAmount": 7541.85,
+      "discountAmount": 0,
+      "taxAmount": 594,
+      "total": 8135.85,
+      "splits": [
+        {
+          "id": "6d724200-3f5b-4d5b-9bfb-f7d263ae806e",
+          "amountDue": 8135.85,
+          "payments": [
+            {
+              "id": "35cc5426-ce30-4a32-8477-3ae08817dc1b",
+              "type": "cash",
+              "amount": 8135.85,
+              "received": 8136,
+              "change": 0.1499999999996362,
+              "createdAt": 1773816433571,
+              "billerName": "John Smith"
+            }
+          ],
+          "status": "paid"
+        }
+      ],
+      "comment": "",
+      "status": "completed",
+      "invoiceId": "INV-till 2-20260318-0002"
+    },
     {
       "id": "023f49c7-024d-4b8e-b357-65a6042b30a5",
       "createdAt": 1773397893157,
@@ -635,5 +728,5 @@
     }
   ],
   "name": "orders-till 2-2026-03-18",
-  "createdAt": "2026-03-18T06:05:38.994Z"
+  "createdAt": "2026-03-18T06:48:21.417Z"
 }

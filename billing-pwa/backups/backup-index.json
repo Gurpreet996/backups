@@ -1,0 +1,19 @@
+{
+  "_kind": "browser-payload",
+  "_savedAt": "2026-04-14T06:16:30.409228600+00:00",
+  "backups": [
+    {
+      "createdAt": "2026-04-14T06:16:27.061Z",
+      "filePath": "billing-pwa/sync/orders-till2-2026-04-14.json",
+      "name": "Orders from till2 (2026-04-14)",
+      "terminalName": "till2"
+    }
+  ],
+  "createdAt": "2026-04-14T06:16:30.408Z",
+  "git": {
+    "branch": "main",
+    "owner": "Gurpreet996",
+    "repo": "backups"
+  },
+  "name": "backup-index"
+}

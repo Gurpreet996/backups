@@ -1,0 +1,23 @@
+{
+  "_kind": "browser-payload",
+  "_savedAt": "2026-04-14T06:43:15.093046300+00:00",
+  "backups": [
+    {
+      "createdAt": "2026-04-14T06:43:04.971Z",
+      "filePath": "billing-pwa/backups/data/billing-pwa-backup-Till1-2026-04-14.json",
+      "name": "billing-pwa-backup-Till1-2026-04-14.zip"
+    },
+    {
+      "createdAt": "2026-04-14T06:43:04.971Z",
+      "filePath": "billing-pwa/backups/data/billing-pwa-backup-2026-04-14.json",
+      "name": "billing-pwa-backup-2026-04-14.zip"
+    }
+  ],
+  "createdAt": "2026-04-14T06:43:15.092Z",
+  "git": {
+    "branch": "main",
+    "owner": "Gurpreet996",
+    "repo": "backups"
+  },
+  "name": "backup-index"
+}

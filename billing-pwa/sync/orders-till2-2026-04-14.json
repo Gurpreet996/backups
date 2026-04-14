@@ -1,7 +1,7 @@
 {
   "_kind": "browser-payload",
-  "_savedAt": "2026-04-14T05:04:53.603325200+00:00",
-  "createdAt": "2026-04-14T05:04:53.531Z",
+  "_savedAt": "2026-04-14T05:05:31.915237200+00:00",
+  "createdAt": "2026-04-14T05:05:31.801Z",
   "git": {
     "branch": "main",
     "owner": "Gurpreet996",
@@ -48610,6 +48610,79 @@
       "subTotalAmount": 149,
       "taxAmount": 0,
       "total": 119
+    },
+    {
+      "comment": "",
+      "createdAt": 1776143119886,
+      "customerId": null,
+      "discountAmount": 0,
+      "id": "bf84826b-c087-42a6-acb2-80a25fb76743",
+      "invoiceId": "INV-Till2-20260414-0001",
+      "items": [
+        {
+          "id": "5d92aba0-e532-4ee4-b101-3fe20bfacc47",
+          "modifiers": [],
+          "productId": "prod-apples",
+          "quantity": 0.15,
+          "subtotal": 1500,
+          "taxAmount": 90,
+          "taxRate": 6,
+          "unitPrice": 10000
+        },
+        {
+          "id": "8b6242ae-9cf1-4aec-9496-5cd6c51791e2",
+          "modifiers": [],
+          "productId": "prod-water",
+          "quantity": 1,
+          "subtotal": 149,
+          "taxAmount": 0,
+          "taxRate": 0,
+          "unitPrice": 149
+        },
+        {
+          "id": "4b6b7286-13ff-43e3-a768-82e9673d2b28",
+          "modifiers": [],
+          "productId": "serv-manicure",
+          "quantity": 1,
+          "subtotal": 3500,
+          "taxAmount": 298,
+          "taxRate": 8.5,
+          "unitPrice": 3500
+        },
+        {
+          "id": "1abaef8c-f365-418a-875a-880d74c36c1f",
+          "modifiers": [],
+          "productId": "prod-coke",
+          "quantity": 1,
+          "subtotal": 199,
+          "taxAmount": 17,
+          "taxRate": 8.5,
+          "unitPrice": 199
+        }
+      ],
+      "orderType": "takeaway",
+      "splits": [
+        {
+          "amountDue": 5752,
+          "id": "9dca9e5b-2fb8-407a-9ca2-d52f88e0809b",
+          "payments": [
+            {
+              "amount": 5752,
+              "billerName": "John Smith",
+              "change": 48,
+              "createdAt": 1776143119884,
+              "id": "1919dc6c-98a6-45cf-9500-c596df160704",
+              "received": 5800,
+              "type": "cash"
+            }
+          ],
+          "status": "paid"
+        }
+      ],
+      "status": "completed",
+      "subTotalAmount": 5348,
+      "taxAmount": 404,
+      "total": 5752
     },
     {
       "comment": "",

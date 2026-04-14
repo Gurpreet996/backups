@@ -1,7 +1,7 @@
 {
   "_kind": "browser-payload",
-  "_savedAt": "2026-04-14T06:29:51.961713500+00:00",
-  "createdAt": "2026-04-14T06:29:51.892Z",
+  "_savedAt": "2026-04-14T06:31:49.451362+00:00",
+  "createdAt": "2026-04-14T06:31:49.368Z",
   "git": {
     "branch": "main",
     "owner": "Gurpreet996",
@@ -60660,6 +60660,89 @@
       "subTotalAmount": 149,
       "taxAmount": 0,
       "total": 149
+    },
+    {
+      "comment": "",
+      "createdAt": 1776148300196,
+      "customerId": null,
+      "discountAmount": 0,
+      "id": "ee9e7f14-40fb-4145-b3d7-a40c20633538",
+      "invoiceId": "INV-Till2-20260414-0002",
+      "items": [
+        {
+          "id": "0fd08dd5-15ca-4a89-aafb-3aa35b85ac69",
+          "modifiers": [],
+          "productId": "prod-apples",
+          "quantity": 0.15,
+          "subtotal": 1500,
+          "taxAmount": 90,
+          "taxRate": 6,
+          "unitPrice": 10000
+        },
+        {
+          "id": "eca08254-653b-4100-a9ca-da375f860f69",
+          "modifiers": [],
+          "productId": "prod-water",
+          "quantity": 1,
+          "subtotal": 149,
+          "taxAmount": 0,
+          "taxRate": 0,
+          "unitPrice": 149
+        },
+        {
+          "id": "590da122-b9a9-46fb-a0fe-7c494847bfc7",
+          "modifiers": [],
+          "productId": "serv-manicure",
+          "quantity": 1,
+          "subtotal": 3500,
+          "taxAmount": 298,
+          "taxRate": 8.5,
+          "unitPrice": 3500
+        },
+        {
+          "id": "1160a15c-ac65-4970-ace3-d0630611d36e",
+          "modifiers": [],
+          "productId": "prod-coke",
+          "quantity": 1,
+          "subtotal": 199,
+          "taxAmount": 17,
+          "taxRate": 8.5,
+          "unitPrice": 199
+        },
+        {
+          "id": "7b36eff4-fa54-4084-8d94-85a92b228862",
+          "modifiers": [],
+          "productId": "prod-fries",
+          "quantity": 1,
+          "subtotal": 349,
+          "taxAmount": 21,
+          "taxRate": 6,
+          "unitPrice": 349
+        }
+      ],
+      "orderType": "takeaway",
+      "splits": [
+        {
+          "amountDue": 6122,
+          "id": "0d9c0f82-a876-41ab-be27-634c7aa81938",
+          "payments": [
+            {
+              "amount": 6122,
+              "billerName": "John Smith",
+              "change": 78,
+              "createdAt": 1776148300172,
+              "id": "03f17e38-d0b3-4572-99b9-53baf8641d4b",
+              "received": 6200,
+              "type": "cash"
+            }
+          ],
+          "status": "paid"
+        }
+      ],
+      "status": "completed",
+      "subTotalAmount": 5697,
+      "taxAmount": 425,
+      "total": 6122
     },
     {
       "comment": "",

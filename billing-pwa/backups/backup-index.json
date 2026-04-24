@@ -1,7 +1,17 @@
 {
   "_kind": "browser-payload",
-  "_savedAt": "2026-04-18T06:08:19.506372300+00:00",
+  "_savedAt": "2026-04-24T09:30:56.849831800+00:00",
   "backups": [
+    {
+      "createdAt": "2026-04-24T09:30:44.696Z",
+      "filePath": "billing-pwa/backups/data/billing-pwa-backup-Till1-2026-04-24.json",
+      "name": "billing-pwa-backup-Till1-2026-04-24.zip"
+    },
+    {
+      "createdAt": "2026-04-24T09:30:44.696Z",
+      "filePath": "billing-pwa/backups/data/billing-pwa-backup-2026-04-24.json",
+      "name": "billing-pwa-backup-2026-04-24.zip"
+    },
     {
       "createdAt": "2026-04-18T06:08:09.335Z",
       "filePath": "billing-pwa/backups/data/billing-pwa-backup-Till1-2026-04-18.json",
@@ -29,7 +39,7 @@
       "terminalName": "till2"
     }
   ],
-  "createdAt": "2026-04-18T06:08:19.505Z",
+  "createdAt": "2026-04-24T09:30:56.849Z",
   "git": {
     "branch": "main",
     "owner": "Gurpreet996",

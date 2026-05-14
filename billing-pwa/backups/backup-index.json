@@ -1,0 +1,23 @@
+{
+  "git": {
+    "owner": "Gurpreet996",
+    "repo": "backups",
+    "branch": "main"
+  },
+  "backups": [
+    {
+      "name": "billing-pwa-backup-Till1-2026-05-14.zip",
+      "filePath": "billing-pwa/backups/data/billing-pwa-backup-Till1-2026-05-14.json",
+      "createdAt": "2026-05-14T07:04:04.861Z"
+    },
+    {
+      "name": "billing-pwa-backup-2026-05-14.zip",
+      "filePath": "billing-pwa/backups/data/billing-pwa-backup-2026-05-14.json",
+      "createdAt": "2026-05-14T07:04:04.861Z"
+    }
+  ],
+  "name": "backup-index",
+  "createdAt": "2026-05-14T07:04:15.748Z",
+  "_kind": "browser-payload",
+  "_savedAt": "2026-05-14T07:04:15.749Z"
+}
